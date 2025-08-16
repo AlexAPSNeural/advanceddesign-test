@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdvancedDesign Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background-color: #3700b3;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #6200ea;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: url('hero-background.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .content h2 {
+            margin-top: 0;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .feature img {
+            max-width: 100px;
+        }
+        footer {
+            background-color: #3700b3;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+        }
+        @media (max-width: 480px) {
+            nav {
+                flex-direction: column;
+            }
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AdvancedDesign Test</h1>
+        <p>Testing advanced psychological design generation</p>
+    </header>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </nav>
+    <section class="hero">
+        <h1>Revolutionize Your Design Process</h1>
+        <p>Experience the future of psychological design.</p>
+        <a href="#learn-more" style="color:#fff; text-decoration:underline;">Learn More</a>
+    </section>
+    <div class="content">
+        <section id="features">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="feature1.png" alt="Feature 1">
+                    <h3>Intuitive Interfaces</h3>
+                    <p>Design with ease using our advanced tools.</p>
+                </div>
+                <div class="feature">
+                    <img src="feature2.png" alt="Feature 2">
+                    <h3>Data-Driven Insights</h3>
+                    <p>Make informed decisions with real-time analytics.</p>
+                </div>
+                <div class="feature">
+                    <img src="feature3.png" alt="Feature 3">
+                    <h3>Collaborative Design</h3>
+                    <p>Work seamlessly with teams across the globe.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@advanceddesigntest.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At AdvancedDesign Test, we harness the power of psychological design to create cutting-edge interfaces that not only look stunning but also convert. Our mission is to revolutionize the way designs are created and perceived.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 AdvancedDesign Test. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
